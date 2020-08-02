@@ -22,7 +22,12 @@ print('There are ', len(new), 'data less then 100')
 print(new[0])
 print(new[1])
 
-
+good = []
+for d in data :
+    if 'good' in d :
+        good.append(d)
+print('There are ', len(good), ' good in the comments')
+print(good[0])
 
 
 
