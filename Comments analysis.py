@@ -6,8 +6,9 @@ with open('reviews.txt', 'r') as f :
         count = count + 1
         if count % 1000 == 0 :
             print(count)
+    print('The file total number of line:', count)
 
 
 print(len(data))
-print(--------------------------------------------------------------------------------------------------)
+print('--------------------------------------------------------------------------------------------------')
 print(data[0])
